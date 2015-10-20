@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="javascript.js"></script>
+	<title>Bogsite</title>
+</head>
+<body>
+	<header>Create Your Own Blog</header>	
+	<article id="main">
+	<div>
+	<label>TITLE: </label>
+	<input type="textbox" name="TITLE" size="63" id="title" autofocus><br><br>
+	</div>
+	<div>
+		<label>AUTHOR: </label><br> 
+		<pre id="name">Firstname:     <input type="textbox" name="firstname" size="30" id="first" autofocus></pre>
+		<pre id="name">Middlename:    <input type="textbox" name="middlename" size="30" id="middle" autofocus></pre>	<pre id="name">Lastname:      <input type="textbox" name="lastname" size="30" id="last" autofocus></pre>
+	</div>
+	<div>
+		<label>CONTENT: </label><br>
+		<textarea id="content" cols="100" rows="10" placeholder="type text here....." autofocus></textarea>
+	</div>
+		<div>
+			<br>
+			<button onclick="display();"> SUBMIT </button><br><br>
+		</div>
+		<div>
+			<article id="result">
+				<h1 id="input_title"> </h1>
+				<h3 id="input_author"> </h3>
+				<p id="input_content"> </p>
+			</article>
+		</div>
+	</article>
+</body>
+</html>

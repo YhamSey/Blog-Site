@@ -1,0 +1,21 @@
+body {
+	background-image: url("background5.jpg"); 
+	padding-top:20px;
+}
+
+header {
+	font-family: Aharoni;
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+label {
+	font-size: 15px;
+	font-family: Arial Black;
+}
+
+#name {
+	font-family: Arial Black;
+	font-size: 15px;
+}
